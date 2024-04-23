@@ -6,6 +6,8 @@ This project focuses on generating randomized clickstream data using python and 
 
 Clickstream data is a valuable source of information for understanding user behavior on websites or applications. This project simulates generating synthetic clickstream data and then showcases how to create and maintain pipeline for BI Analyst, Data Scientist.
 
+- I am attaching the code(replace with your aws credentials), Snapshots of the process, Input file which is in Json : PUT-S3-clickstreamdata-1-2024-04-23-10-02-19-92887eac-91c7-48fb-be4c-b19ce2797a69, Output Excel file queried from Athena: Output- Structed data (Queried from Athena)
+
 # Features
 
 - Randomized clickstream data generation using python( code can be found in my repository).
