@@ -8,18 +8,16 @@ Clickstream data is a valuable source of information for understanding user beha
 
 - I am attaching the code (Main.py replace with your AWS credentials)
 - Snapshots of the process
-- - **Input file** which is in Json : PUT-S3-clickstreamdata-1-2024-04-23-10-02-19-92887eac-91c7-48fb-be4c-b19ce2797a69
+-  **Input file** which is in Json : PUT-S3-clickstreamdata-1-2024-04-23-10-02-19-92887eac-91c7-48fb-be4c-b19ce2797a69
     
   ![Data stored in S3 bucket from delivery_firehouse](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/fb0c352c-bf58-4a8d-82d8-d2c428e633eb)
   ![After crawling the json data into schema](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/fd0e4bbf-64a5-4113-a73b-d22ee9853ed1)
   ![partitions after crawling](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/bf02aee3-33b8-4d4f-aabe-7f5c77d2fb60)
 
 
-- **Output Excel file** queried from Athena: Output- Structed data (Queried from Athena)
+- **Output Excel file** queried from Athena: Output- Structed data (Queried from Athena) in repository
   ![Queried the data using AWS Athena](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/11ca8d32-1334-4f66-8217-e3192a55b8ab)
   ![clickstream data_ready to be analysed](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/6e235926-1eca-4c68-979c-1049c4877eb7)
-
-
 
 # Features
 
