@@ -1,4 +1,4 @@
-# ClickStream_Data-Pipeline
+# Clickstream_Data-Pipeline
 
 This project focuses on generating randomized clickstream data using Python and demonstrates how to ingest, process, and analyze this data using various AWS services including Amazon Kinesis Data Firehose, Amazon S3 acting as Datalake, AWS Glue, Amazon Athena.
 
