@@ -1,11 +1,15 @@
-This project focuses on generating randomized clickstream data using Python and demonstrates how to ingest, process, and analyze this data using various AWS services including Amazon Kinesis Data Firehose, Amazon S3 acting as Datalake, AWS Glue, Amazon Athena.
+### **Objective**
+This project aims to develop an efficient and scalable solution for handling clickstream data, enabling stakeholders to gain valuable insights into user behavior and interactions.
+Kinesis Firehose is chosen in this project for its seamless integration with other AWS services, scalability and durability for handling batch of streamed data, which often generated continuosly and requires real-time processing for analysis and insights.
 
-### **Overview**
-Clickstream data is a valuable source of information for understanding user behavior on websites or applications. This project simulates generating synthetic clickstream data and then showcases how to create and maintain pipeline for BI Analysts, Data Scientists.
-  
 ### **Input file** in Json : PUT-S3-clickstreamdata-1-2024-04-23-10-02-19-92887eac-91c7-48fb-be4c-b19ce2797a69
 
 ### **Approach**
+  - **Inception**: Inspired by the importance of clickstream data in understanding user behavior, the project commenced with the objective of building a robust data pipeline for its processing and analysis.
+  - **Data Ingestion**: Clickstream data is ingested into the pipeline using Kinesis Firehose, which streams the data directly to S3, creating a data lake for storage and further processing.
+  - **Data Processing**: AWS Glue is employed for data processing tasks such as data cleaning, transformation, and schema inference. Glue's serverless and scalable nature ensures efficient processing of large volumes of clickstream data.
+  - **Data Analysis**: Clickstream data stored in the S3 data lake is queried using AWS Athena, enabling ad-hoc SQL queries for analysis. Athena's interactive query performance allows for rapid exploration and visualization of insights derived from the clickstream data.
+
   ![Data stored in S3 bucket from delivery_firehouse](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/fb0c352c-bf58-4a8d-82d8-d2c428e633eb)
   ![After crawling the json data into schema](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/fd0e4bbf-64a5-4113-a73b-d22ee9853ed1)
   ![partitions after crawling](https://github.com/Ashvakg/ClickStream_Data-Pipeline/assets/83398283/bf02aee3-33b8-4d4f-aabe-7f5c77d2fb60)
